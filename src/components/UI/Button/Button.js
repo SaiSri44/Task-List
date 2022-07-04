@@ -52,11 +52,11 @@ const Button = (props) => {
 2.In this we do not keep the CSS and JS files sepearetly only.
 3.First we need to make the CSS modules to work, to do that rename the CSS files to file_name.module.css i.e add the module term after file_name. 
 This tells that we wish to convert the CSS file to CSS module. 
-CSS module converts this CSS file to CSS module, where each class name we defined we would be the property of this CSS module.
+CSS module converts this CSS file to CSS module, where each class name we defined  would become the property of this CSS module.
 CSS module adds custom classname so that it would be unique, in this way without merging the CSS file with JS we are avoiding clashes.
-To use this module in Js file import object of this moduel. 
+To use the CSS module in Js file import object of this moduel. 
 like import styles from './Button.module.css' 
-Here is styles is the object of the CSS module.
+Here styles is the object of the CSS module.
 Whenever we need to specify the className specify it dynamically by accessing className as property of this object.
 */
 export default Button;
