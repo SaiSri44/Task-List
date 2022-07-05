@@ -71,7 +71,7 @@ const CourseInput = (props) => {
         />
       </div>
 
-      */}
+      */} 
 
       {/* 
         -----------------------Dynamically Adding styles using the styled Components via props concepts------------------
@@ -114,7 +114,7 @@ This is not the desired behaviour. We would look at alternative way for styling 
 */
 
 /*Adding styles dynamically
-Styles can be added dynamically to the JSX elements,by modifying the classname i.e adding other classname to the existing the existing classname. The addition of the extra classname can be controlled dynamically. 
+Styles can be added dynamically to the JSX elements,by modifying the classname i.e adding other classname to the existing classname. The addition of the extra classname can be controlled dynamically. 
 Add the whatever styles you need by taking the udpated class name in the css file. When the classname changed dynamically the changes would reflect automatically.*/
 
 /*
